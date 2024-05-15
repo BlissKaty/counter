@@ -27,7 +27,7 @@ export default function Buttons({ setCount, count, setChangeColor }) {
       </div>
 
       <button
-        className="bg-zinc-600 pl-5 pr-5 pt-1 pb-1 rounded-md "
+        className="flex bg-zinc-600 px-8 py-4 rounded-md "
         onClick={() => {
           setCount(0);
         }}
